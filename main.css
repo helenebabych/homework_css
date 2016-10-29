@@ -1,0 +1,125 @@
+   margin:0px;
+   padding:0px;
+ }
+  #menu ul{
+      position:absolute; top:0px; right:0px;
+      }
+  #menu li ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+}
+#menu li:hover {background: #e4f0e2;}
+#menu li:hover ul {
+  display: block;
+  background: #e4f0e2;
+  }
+#menu, #menu ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+#menu {
+  height: 30px;
+  padding-left: 30px;
+ }
+#menu li {
+  float: right;
+  position: relative;
+  height: 100%;
+}
+#menu li a {
+  display: block;
+  padding: 6px;
+  width: 100px;
+  text-decoration: none;
+  text-align: center;
+}
+#menu ul li { float: none; }
+
+#menu li:hover li ul {
+  display: none;
+  width: 138px;
+  top: -9px;
+  right:112px;
+  background: #e4f0e2;
+}
+#menu li:hover li:hover ul {
+  display: block;
+ }
+ a {
+ color: #438638;
+ text-decoration: none;
+ }
+ a:hover {
+ color: #12330c;
+  }
+.header H1{
+          	color:  #12330c;
+          	margin:5px 10px 10px 30px;
+          	font-size: 50px
+            }
+.header{
+width:300px;
+height:150px;
+background-image: url(rake.jpg);
+background-size: cover;
+position:absolute; top:0px; left:0px;
+}
+
+h3{text-align: center;
+ color: #12330c;
+ }
+ #two{
+margin:150px 15px 10px 5px;
+position:absolute;
+font-family: Tahoma;
+font-size: 14px;
+line-height: 1.5;
+color: #cccccc;
+height:100px;
+}
+.hello{
+position:relative;
+float: left;
+width:50%;
+height:100px;
+background: yellow;
+}
+.hi{position:relative;
+float: right;
+width:50%;
+height:100px;
+background: orange;
+}
+#three{
+margin-top:270px;
+position:absolute;
+font-family: Tahoma;
+font-size: 14px;
+line-height: 1.5;
+color: #cccccc;
+height:100px;
+width:100%;
+}
+.red {
+position:relative;
+float: left;
+width:33%;
+height:100px;
+background: red;
+}
+.green {
+position:relative;
+float: left;
+width:33%;
+height:100px;
+background: green;
+}
+.blue {
+position:relative;
+float: left;
+width:33%;
+height:100px;
+background: blue;
+}
